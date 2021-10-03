@@ -9,8 +9,11 @@ function Home() {
         <title>React Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Header />
-        <Baner />
+        <div className="bg-baner-bg h-[700px] bg-bottom bg-cover">
+            <Header />
+            <Baner />
+        </div>
+
 
 
 
