@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from "../components/Header";
-import Baner from "../components/Baner";
+import Banner from "../components/Baner";
 import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
@@ -15,7 +15,7 @@ function Home({exploreData, cardsData}) {
       </Head>
         <div className="bg-baner-bg h-[700px] bg-bottom bg-cover">
             <Header />
-            <Baner />
+            <Banner />
         </div>
         <main className="max-w-7xl mx-auto px-8 sm:px-16">
             <section className="pt-6">
