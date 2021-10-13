@@ -30,7 +30,6 @@ function Header() {
   function handleRangeSelect(ranges) {
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
-    console.log(ranges);
   }
   function search() {
     router.push({
@@ -92,7 +91,7 @@ function Header() {
               />
               <div className="flex items-center border-b mb-4">
                 <h2 className="text-2xl flex-grow font-semibold">
-                  Number of Guests
+                  Количество гостей
                 </h2>
                 <UsersIcon className="h-5" />
                 <input
