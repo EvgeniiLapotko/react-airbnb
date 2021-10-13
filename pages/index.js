@@ -13,10 +13,10 @@ function Home({exploreData, cardsData}) {
         <title>React Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div className="bg-baner-bg h-[700px] bg-bottom bg-cover">
+
             <Header />
             <Banner />
-        </div>
+
         <main className="max-w-7xl mx-auto px-8 sm:px-16">
             <section className="pt-6">
                 <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
